@@ -1,0 +1,22 @@
+name: ValveNobCheat
+main: com.phdincomputing.NobBlock.Main
+version: 1.0
+commands: 
+   nobblock:
+      description: 'Nob'
+      usage: '/nobblock [list|resend|reset]'
+   nobblock list all:
+      description: 'Nob'
+      usage: '/nobblock list all'
+   nobblock list add:
+      description: 'Nob'
+      usage: '/nobblock list add <PlayerName>'
+   nobblock list remove:
+      description: 'Nob'
+      usage: '/nobblock list remove <PlayerName>'
+   nobblock resend:
+      description: 'Nob'
+      usage: '/nobblock resend [all|<player>]'
+   nobblock reset:
+      description: 'Nob'
+      usage: '/nobblock reset'
